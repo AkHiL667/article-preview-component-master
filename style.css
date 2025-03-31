@@ -8,11 +8,13 @@ p {
   margin: 0;
   padding: 0;
 }
+
 img,
 a {
   width: 100%;
   display: block;
 }
+
 :root {
   --sans-serif: "Manrope", sans-serif;
 
@@ -22,6 +24,7 @@ a {
   --grayish-blue: hsl(212, 23%, 69%);
   --light-grayish-blue: hsl(210, 46%, 95%);
 }
+
 body {
   margin: 50px auto;
   font-size: 13px;
@@ -31,9 +34,11 @@ body {
   min-height: 100vh;
   background-color: var(--light-grayish-blue);
 }
+
 .article-preview {
   position: relative;
 }
+
 .article-container {
   background-color: white;
   max-width: 350px;
@@ -43,6 +48,7 @@ body {
   /* display: grid;
   justify-content: center; */
 }
+
 .article-container .article-image {
   /* max-width: 350px; */
   /* max-height: 220px; */
@@ -51,16 +57,19 @@ body {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
+
 .article-container .text,
 .article-container .article-footer {
   padding: 0 2rem;
 }
+
 .text h2 {
   font-size: 1.1rem;
   margin: 1rem 0;
   font-weight: 700;
   color: var(--very-dark-grayish-blue);
 }
+
 .text p {
   font-size: 1rem;
   font-weight: 500;
@@ -68,6 +77,7 @@ body {
   /* margin-bottom: 3rem; */
   line-height: 1.8;
 }
+
 .article-footer {
   display: grid;
   align-items: center;
@@ -76,12 +86,14 @@ body {
   transition: all 0.3s ease;
   margin: 2rem 0;
 }
+
 .profile {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   justify-content: space-between;
   align-items: center;
 }
+
 .profile img {
   border-radius: 50%;
   width: 40px;
@@ -91,11 +103,13 @@ body {
 .profile .profile-info .name {
   font-size: 0.9rem;
 }
+
 .profile .profile-info .date {
   padding-top: 0.2rem;
   font-size: 0.8rem;
   color: var(--grayish-blue);
 }
+
 /* .profile .name img {
   width: 35px;
   height: 35px;
@@ -116,11 +130,13 @@ body {
     transform 0.3s ease-in-out,
     background-color 0.3s ease-in-out;
 }
+
 .share-icon img,
 .share-icon-2 img {
   width: 20px;
   height: 20px;
 }
+
 .share-social-links {
   position: absolute;
   right: 0;
@@ -136,6 +152,7 @@ body {
     transform 0.3s ease-in-out,
     background-color 0.3s ease-in-out;
 }
+
 /* .share-icon.active {
   transform: scale(1.2); 
   background-color: hsl(217, 19%, 35%); 
@@ -147,29 +164,37 @@ body {
   letter-spacing: 0.5rem;
   padding-left: 1.5rem;
 }
+
 .share-social-links .social-links {
   display: flex;
   gap: 0.5rem;
 }
+
 .share-social-links .social-links a {
   height: 20px;
   width: 20px;
 }
+
 .share-social-links .share-icon-2 {
   margin-right: 1.5rem;
 }
+
 .hidden {
-  display: hidden;
+  display: none;
   opacity: 0;
 }
+
 .show {
   visibility: visible;
+  display: flex;
   opacity: 1;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
